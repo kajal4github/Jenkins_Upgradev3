@@ -30,8 +30,6 @@ public class TestGreeter {
    @Test
   public void intentionally_Failed() {
     assertTrue(false);
-
-    assertThat(greeter.greet(someone), containsString(someone));
   }
 
   @Test
